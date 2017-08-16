@@ -1,36 +1,13 @@
 # kafka-clj-test
 
-FIXME: description
+Testing out Clojure with Kafka.
+Motivation is that for simple JSON transformation between two Kafka topics, the dynamic nature of Clojure, unrestricted by compile time objects to update with schema change, could be a natural fit.
 
-## Installation
+## Installation & Dependencies
 
-Download from http://example.com/FIXME.
+Dependency on kafka-clj library, which in turn has dependency on both Kafka and Redis. Both must be available.
 
 ## Usage
 
-FIXME: explanation
-
     $ java -jar kafka-clj-test-0.1.0-standalone.jar [args]
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
